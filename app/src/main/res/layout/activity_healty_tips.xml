@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Healty_Tips">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health Recipes"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#800505"
+        android:background="@color/black"
+        android:padding="10dp"
+        android:layout_marginTop="10sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image6"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Healthy Recipes\n1. Fruit Salad\nCreamy dessert-style fruit salad\n2. Fruitshake\nFruit juice with variety of of fruits.\n3. Antioxidants\nIncreases the oxygen level in the body\n4. Vegetable Salad\nhis is a crisp and refreshing everyday salad\n5. Lentil Stew\nAffordable, high-protein and very filling\n6. Curried Lemon Ginger Chicken"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
